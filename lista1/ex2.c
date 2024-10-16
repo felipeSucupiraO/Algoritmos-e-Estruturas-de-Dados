@@ -21,8 +21,7 @@ int main() {
         num1Certo += digito(num1, i) * pow(10, numDigitos(num1) - i - 1);
     }
 
-    i = 0;
-    for (int i = 0; i < numDigitos(num2); i++) {
+    for (i = 0; i < numDigitos(num2); i++) {
         num2Certo += digito(num2, i) * pow(10, numDigitos(num2) - i - 1);
     }
 
